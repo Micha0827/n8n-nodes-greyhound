@@ -15,7 +15,7 @@ export class GreyhoundApi implements ICredentialType {
 			type: 'string',
 			default: '',
 			placeholder: 'https://your-greyhound-instance.com/rest/v1',
-			description: 'The base URL of your GREYHOUND REST API (including /rest path)',
+			description: 'The base URL of your GREYHOUND REST API (including /rest/v1 path)',
 			required: true,
 		},
 		{
