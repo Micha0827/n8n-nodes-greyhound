@@ -44,7 +44,7 @@ npm install n8n-nodes-greyhound
 
 The node requires GREYHOUND API credentials:
 
-1. **Base URL**: The URL of your GREYHOUND REST API instance (e.g., `https://your-instance.com/rest`)
+1. **Base URL**: The URL of your GREYHOUND REST API instance (e.g., `https://your-instance.com/rest/v1`)
 2. **Username**: Your username for authentication
 3. **Password**: Your password for authentication
 
@@ -66,7 +66,7 @@ The node requires GREYHOUND API credentials:
 ### Usage Example
 
 1. Create a new credential of type "GREYHOUND API"
-2. Enter your Base URL (including `/rest` path), Username, and Password
+2. Enter your Base URL (including `/rest/v1` path), Username, and Password
 3. Add the GREYHOUND node to your workflow
 4. Select the desired Resource (Colors or Items)
 5. Select the desired Operation
@@ -196,7 +196,7 @@ Die Node benötigt GREYHOUND API Credentials:
 ### Verwendungsbeispiel
 
 1. Erstelle eine neue Credential vom Typ "GREYHOUND API"
-2. Gebe deine Base URL (inkl. `/rest`), Username und Password ein
+2. Gebe deine Base URL (inkl. `/rest/v1`), Username und Password ein
 3. Füge die GREYHOUND Node zu deinem Workflow hinzu
 4. Wähle die gewünschte Resource (Colors oder Items)
 5. Wähle die gewünschte Operation
