@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-greyhound",
   "version": "1.5.0",
-  "description": "n8n community node for GREYHOUND DMS REST API - Access colors and items endpoints with filtering and pagination",
+  "description": "n8n community node for GREYHOUND DMS REST API - Access colors, groups and items endpoints with filtering, pagination and creation",
   "main": "index.js",
   "scripts": {
     "build": "tsc && gulp build:icons",
